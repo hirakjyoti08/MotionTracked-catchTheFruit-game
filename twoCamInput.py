@@ -1,3 +1,4 @@
+# this code is for the utilization of two camera input for better detection
 import cv2
 import pyautogui
 from time import time
