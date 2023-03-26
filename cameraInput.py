@@ -1,3 +1,4 @@
+# this is a the program for one camera input for detection
 import cv2
 import pyautogui
 from time import time
