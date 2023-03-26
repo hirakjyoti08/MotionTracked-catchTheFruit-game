@@ -92,7 +92,7 @@ def checkLeftRight(image, results, draw=False, display=False):
     # and left shoulder landmark x-corrdinate is less than or equal to the x-corrdinate of the center of the image.
     elif (right_x >= width//2 and left_x <= width//2):
         
-        # Set the person's position to center.
+        # Set the person position in center
         horizontal_position = 'Center'
         
     # Check if the person's horizontal position and a line at the center of the image is specified to be drawn.
