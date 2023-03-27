@@ -117,7 +117,7 @@ def checkLeftRight(image, results, draw=False, display=False):
         # Return the output image and the person's horizontal position.
         return output_image, horizontal_position
 
-#taking the input
+#this program takes the input
 cap = cv2.VideoCapture(0)
 cap.set(3,1280)
 cap.set(4,960)
