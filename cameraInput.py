@@ -152,7 +152,7 @@ while cap.isOpened():
                 xposright = True
             else:
                 continue
-    #shows the fps on the screen
+    #shows the fps on the display screen
     time2 = time()
     if (time2-time1)>0:
         frames_per_second = 1.0 / (time2 - time1)
